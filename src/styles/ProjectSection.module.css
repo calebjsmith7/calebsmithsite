@@ -1,0 +1,37 @@
+/* src/styles/ProjectSection.module.css */
+
+.section {
+  margin-bottom: 2rem;
+}
+
+.section h2 {
+  margin-bottom: 1rem;
+}
+
+.scrollContainer {
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+}
+
+.projectCard {
+  flex: 0 0 auto;
+  scroll-snap-align: start;
+  margin-right: 1rem;
+  text-align: center;
+}
+
+.projectImage {
+  border-radius: 10px;
+  transition: transform 0.3s;
+  object-fit: cover;
+}
+
+.projectImage:hover {
+  transform: scale(1.05);
+}
+.logoImage {
+  border-radius: 10px;
+  transition: transform 0.3s;
+  object-fit: contain;
+}

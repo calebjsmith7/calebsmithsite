@@ -116,14 +116,6 @@ const logos = [
     image: "/logo11.png",
   },
   {
-    title: "Jubilee Store",
-    image: "/logo1.png",
-  },
-  {
-    title: "Kennedy Racecars",
-    image: "/logo2.png",
-  },
-  {
     title: "Danielle Russo",
     image: "/logo3.png",
   },
